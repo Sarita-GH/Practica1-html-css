@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>ejercicio-html</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Ejercicio1.css">
+    </head>
+    <body>
+        <noscript>Tiene que activar JS para poder ver correctamente esta página</noscript>
+
+        <h1>Párrafo 1</h1>
+        <p><em>Lorem ipsum dolor</em> </br>sit amet consectetur adipisicing elit. Ex hic sed eum reiciendis fugiat placeat fugit corrupti magni nostrum, quod in dolorum adipisci aspernatur blanditiis, quisquam, repellendus laboriosam ipsa voluptatibus? </p>
+        <h2>Párrafo 2</h2>
+        <img src="https://krebsonsecurity.com/wp-content/uploads/2014/08/loremipsum.png" alt="Lorem ipsum" width="100px" height="100px" align="left"/>
+        <p>Lorem ipsum &nbsp; <strong>dolor sit</strong>, amet consectetur adipisicing elit. Illo inventore sunt earum distinctio possimus. Voluptas repellat ipsa perspiciatis similique qui dolorum quos optio, pariatur odit minus incidunt quaerat iure adipisci.</p>
+        </br>
+        <h3>Párrafo 3</h3>
+        <p><blockquote> Lorem ipsum, dolor sit</blockquote> amet consectetur adipisicing elit. Quaerat debitis modi consequatur corrupti id voluptate, maxime pariatur nam natus aliquid. Deserunt exercitationem veniam sequi nisi explicabo nulla vel tempora culpa!</p>
+        <h4>Párrafo 4</h4>
+        <p>El <abbr title="Doctor">Dr.</abbr> Benito es <dfn title="médico especialista en el estudio de la estrcutura y función renal">nefrólogo</dfn></p>
+        <h5>Párrafo 5</h5>
+        <p> &quot;Lorem ipsum dolor sit &quot;, amet consectetur adipisicing elit. Fugit quasi aspernatur esse eligendi tempora molestias est, quos nulla sint nostrum? Accusantium, unde commodi? Omnis dolorem odit dolor, vero quis beatae!</p>
+    </br>
+        <h6 id="párrafo-6">Párrafo 6</h6>
+        <p>Aquí haremos referencia en el ejercicio 3</p>
+    </br>
+
+        <a href="http://www.google.com">Enlace a Google</a></br>
+        <a href="http://www.google.com/"></br>
+            <img alt="imagen html de ejemplo" src="https://apps.shopifycdn.com/listing_images/a78e004f44cded1b6998e7a6e081a230/icon/75cca60559bdb1d019238e21dffb1eef.png" width="120" height="75" />
+        </a></br>
+        <a href="mailto: info@gmail.com">Mail de contacto</a></br>
+        <a href="#párrafo-6">Enlace al párrafo 6</a>
+
+        <ul>Palabras que comienzan con A
+            <li>Abeto</li>
+            <li>Amigo</li>
+            <li>Ayuda</li>
+            <li>Aceite</li>
+        </ul>
+        <ol>Las canciones más escuchadas de 2020
+        <li>Cristina</li>
+        <li>Vas a quedarte</li>
+        <li>Aire</li>
+        <li>Demons</li>
+        </ol>
+        <dl>
+            <dt>Amigo</dt>
+            <dd>Persona que mantiene relaciones amorosas y sexuales con otra sin estar casada ni convivir con ella.</dd>
+            <dt>Abeto</dt>
+            <dd>Árbol de tronco alto y recto, corteza lisa y blanquecina, copa en forma de cono con ramas horizontales</dd>
+            <dt>Ayuda</dt>
+            <dd>Acción que una persona hace de manera desinteresada para otra por aliviarle el trabajo</dd>
+        </dl>
+        <ol>
+            <li>Tema 1 - Listas</li>
+            <ul>
+                <li>Como hacer una lista desordenada</li>
+                <li>Como hacer una lista ordenada</li>
+                <li>Como hacer una lista de definición</li>
+            </ul>
+            <li>Tema 2 - Marcado de texto</li>
+            <ul>
+                <li>Marcado en negrita</li>
+                <li>Marcado en enfasis o cursiva</li>
+                <li>Saltos de línea</li>
+            </ul>
+        </ol>
+
+        <table border="3">
+            <thead>Tabla básica</thead>
+            <th colspan="2">Encabezado</th>
+            <tr><td rowspan="3">A</td><td>B</td></tr>
+            <tr><td>C</td></tr>
+            <tr><td>D</td></tr>
+            <tr><td>E</td><td>F</td></tr>
+        </table>
+    </br>
+
+        <table border="3">
+            <thead>Tabla avanzada</thead>
+            <th>Año 1</th><th>Año 2</th><th>Año 3</th><th>Año 4</th>
+            <tr><td>25</td><td>50</td><td>75</td><td>25</td></tr>
+            <tr><td>100</td><td>50</td><td>200</td><td>25</td></tr>
+            <tr><td>150</td><td>200</td><td>500</td><td>100</td></tr>
+            <tr><td colspan="5">Total: 1500</td></tr>
+        </table>
+    </br>
+
+    <table border="3">
+        <thead>Anidar tablas</thead>
+        <tr>
+            <td>Celda tabla principal (padre)</td>
+            <td><table border="2">
+                <tr><td>Tabla anidada. Celda (1,1)</td><td>Tabla anidada, Celda (1,2)</td></tr>
+                <tr><td>Tabla anidada. Celda (2,1)</td><td>Tabla anidada, Celda (2,2)</td></tr>
+            </table></td>
+        </tr>
+    </table>
+    </br>
+
+    <form action="mailto:saraortega_2007@hotmail.com" method="POST">
+        <h3>Introduzca sus datos</h3>
+        <fieldset>
+            <legend>Datos del usuario</legend>
+        <label for="nombre">Nombre:  </label><input type="text" name="nombre" id="nombre" tabindex="1"> </br></br>
+        <label for="apellidos">Apellidos:  </label>
+        <input type="text" name="apellidos" id="apellidos" tabindex="2" /> </br></br>
+        <label for="direccion">Dirección:  </label>
+        <input type="text" name="direccion" id="direccion" tabindex="3"> </br></br>
+        <label for="sexo">Seleccione sexo:  </label>
+        Hombre<input type="radio" name="sexo" id="hombre" tabindex="4">
+        Mujer<input type="radio" name="sexo" id="mujer" tabindex="5"> </br></br>
+        <label for="estado">Estado civil:  </label>
+        <select tabindex="6">
+            <option value="Soltero/a" id="estado">Soltero/a</option>
+            <option value="Casado/a" id="estado">Casado/a</option>
+            <option value="Divorciado/a" id="estado">Divorciado/a</option>
+            <option value="Viudo/a" id="estado">Viudo/a</option>
+            <option value="Otro" id="estado">Otro</option>
+        </select> </br></br>
+    </fieldset>
+    <fieldset>
+        <legend>Datos del usuario</legend>
+        <label for="nick">Nick:  </label><input type="text" name="nick" id="nick" tabindex="7"> </br></br>
+        <label for="contraseña">Contraseña:  </label><input type="password" name="contraseña" id="contraseña" tabindex="8"> </br></br>
+    </fieldset>
+    <fieldset>
+        <legend>Interesado en:  </legend>
+        <label for="interes">Seleccione en qué está interesado:  </label></br>
+        Programación web <input type="checkbox" name="programación_web" id="interes" tabindex="9">
+        Ofimática <input type="checkbox" name="ofimática" id="interes" tabindex="10">
+        Diseño gráfico <input type="checkbox" name="diseño_gráfico" id="interes" tabindex="11"> </br></br>
+    </fieldset>
+    <fieldset>
+        <legend>Observaciones adicionales:  </legend>
+        <label for="observaciones">Observaciones:  </label></br>
+        <textarea cols="25" rows="5" id="observaciones">Escriba aquí sus observaciones</textarea>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </fieldset>
+    </form>
+</br>
+
+    <!--Esto es un comentario-->
+<iframe src="iframe.html" width="300" height="300" scrolling="yes">
+</iframe>
+<hr>
+</br>
+<header>
+    <h1>CABECERA</h1>
+</header>
+<nav>
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+        <li>cuatro</li>
+    </ul>
+</nav>
+<main>
+    <h1>Estructura</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur dicta alias doloremque explicabo, veniam animi dolore quibusdam aliquam commodi dolores? Harum consectetur inventore ipsum mollitia quidem! Dicta, iusto maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo, repellat error sunt officia enim rem, iste sapiente obcaecati saepe harum beatae suscipit atque maxime nesciunt impedit. Nulla, culpa facilis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, iusto esse laboriosam excepturi impedit dignissimos fugiat consequatur beatae in facilis id repellendus quisquam? Nostrum aliquam aut ipsa officia aperiam dolorum!</p>
+</main>
+<footer>
+    <h1>PIE</h1>
+</footer>
+
+    </body>
+</html>
